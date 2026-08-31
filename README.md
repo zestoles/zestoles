@@ -1,12 +1,10 @@
-<p align="center" style="pointer-events: none;">
-  <img src="https://raw.githubusercontent.com/zestoles/zestoles/main/assets/kernel-signal.svg" alt="Numerical systems and kernel correctness" width="100%" />
-</p>
+# Görkem TUNA
 
-<p align="center" style="pointer-events: none;">
-  <a href="https://github.com/zestoles"><img src="https://img.shields.io/badge/GitHub-zestoles-0b1220?style=flat-square&logo=github&logoColor=ffffff" alt="GitHub" /></a>
-  <a href="https://dev.to/gundi61"><img src="https://img.shields.io/badge/Dev.to-@gundi61-0b1220?style=flat-square&logo=devdotto&logoColor=ffffff" alt="Dev.to" /></a>
-  <img src="https://img.shields.io/badge/Focus-numerical%20correctness-0b1220?style=flat-square&logo=target&logoColor=5eead4" alt="Focus: numerical correctness" />
-</p>
+> **NUMERICAL SYSTEMS / KERNEL CORRECTNESS**
+>
+> `IEEE 754` · `edge cases` · `reproducible evidence`
+
+`GitHub: zestoles` · `Dev.to: @gundi61` · `Focus: numerical correctness`
 
 ## About
 
@@ -14,9 +12,13 @@ I work on numerical correctness at the boundary between software and hardware: I
 
 My approach is deliberately evidence-first: reproduce the failure, trace the data path, model the relevant execution semantics, and validate that a fix improves the affected cases without changing the rest.
 
-<p align="center" style="pointer-events: none;">
-  <img src="https://raw.githubusercontent.com/zestoles/zestoles/main/assets/evidence-loop.svg" alt="Evidence-first numerical debugging workflow" width="100%" />
-</p>
+## Evidence-first workflow
+
+```text
+01 / REPRODUCE  →  02 / MODEL  →  03 / VALIDATE  →  04 / UPSTREAM
+minimal failing     trace the path     strict improvement    small, clear patch
+input + reference   bits + semantics   no collateral change  focused regression
+```
 
 ## Selected work
 
@@ -36,24 +38,13 @@ My approach is deliberately evidence-first: reproduce the failure, trace the dat
 
 ## Project shelf
 
-<p align="center" style="pointer-events: none;">
-  <a href="https://github.com/zestoles/tt-metal"><img src="https://img.shields.io/badge/CONTRIBUTIONS-tt--metal-102947?style=for-the-badge&logo=github&logoColor=5eead4" alt="tt-metal contributions" /></a>
-  <a href="https://github.com/zestoles/kernel-audit-playbook"><img src="https://img.shields.io/badge/METHODOLOGY-kernel--audit--playbook-102947?style=for-the-badge&logo=bookstack&logoColor=5eead4" alt="Kernel audit playbook" /></a>
-  <a href="https://github.com/zestoles/bounty-watcher"><img src="https://img.shields.io/badge/AUTOMATION-bounty--watcher-102947?style=for-the-badge&logo=githubactions&logoColor=5eead4" alt="Bounty watcher" /></a>
-</p>
-
-<p align="center"><sub>Upstream contribution · repeatable methodology · practical automation</sub></p>
+- [`tt-metal`](https://github.com/zestoles/tt-metal) — upstream contributions to numerical kernels
+- [`kernel-audit-playbook`](https://github.com/zestoles/kernel-audit-playbook) — repeatable numerical-audit methodology
+- [`bounty-watcher`](https://github.com/zestoles/bounty-watcher) — cautious public-opportunity triage automation
 
 ## Toolbox
 
-<p style="pointer-events: none;">
-  <img src="https://img.shields.io/badge/C%2B%2B-0b1220?style=for-the-badge&logo=cplusplus&logoColor=5eead4" alt="C++" />
-  <img src="https://img.shields.io/badge/C-0b1220?style=for-the-badge&logo=c&logoColor=5eead4" alt="C" />
-  <img src="https://img.shields.io/badge/Python-0b1220?style=for-the-badge&logo=python&logoColor=5eead4" alt="Python" />
-  <img src="https://img.shields.io/badge/Git-0b1220?style=for-the-badge&logo=git&logoColor=5eead4" alt="Git" />
-  <img src="https://img.shields.io/badge/Linux-0b1220?style=for-the-badge&logo=linux&logoColor=5eead4" alt="Linux" />
-  <img src="https://img.shields.io/badge/GitHub_Actions-0b1220?style=for-the-badge&logo=githubactions&logoColor=5eead4" alt="GitHub Actions" />
-</p>
+`C++` · `C` · `Python` · `Git` · `Linux` · `GitHub Actions`
 
 ## Currently exploring
 
