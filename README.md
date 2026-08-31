@@ -1,8 +1,8 @@
-<p align="center">
+<p align="center" style="pointer-events: none;">
   <img src="https://raw.githubusercontent.com/zestoles/zestoles/main/assets/kernel-signal.svg" alt="Numerical systems and kernel correctness" width="100%" />
 </p>
 
-<p align="center">
+<p align="center" style="pointer-events: none;">
   <a href="https://github.com/zestoles"><img src="https://img.shields.io/badge/GitHub-zestoles-0b1220?style=flat-square&logo=github&logoColor=ffffff" alt="GitHub" /></a>
   <a href="https://dev.to/gundi61"><img src="https://img.shields.io/badge/Dev.to-@gundi61-0b1220?style=flat-square&logo=devdotto&logoColor=ffffff" alt="Dev.to" /></a>
   <img src="https://img.shields.io/badge/Focus-numerical%20correctness-0b1220?style=flat-square&logo=target&logoColor=5eead4" alt="Focus: numerical correctness" />
@@ -14,7 +14,7 @@ I work on numerical correctness at the boundary between software and hardware: I
 
 My approach is deliberately evidence-first: reproduce the failure, trace the data path, model the relevant execution semantics, and validate that a fix improves the affected cases without changing the rest.
 
-<p align="center">
+<p align="center" style="pointer-events: none;">
   <img src="https://raw.githubusercontent.com/zestoles/zestoles/main/assets/evidence-loop.svg" alt="Evidence-first numerical debugging workflow" width="100%" />
 </p>
 
@@ -36,7 +36,7 @@ My approach is deliberately evidence-first: reproduce the failure, trace the dat
 
 ## Project shelf
 
-<p align="center">
+<p align="center" style="pointer-events: none;">
   <a href="https://github.com/zestoles/tt-metal"><img src="https://img.shields.io/badge/CONTRIBUTIONS-tt--metal-102947?style=for-the-badge&logo=github&logoColor=5eead4" alt="tt-metal contributions" /></a>
   <a href="https://github.com/zestoles/kernel-audit-playbook"><img src="https://img.shields.io/badge/METHODOLOGY-kernel--audit--playbook-102947?style=for-the-badge&logo=bookstack&logoColor=5eead4" alt="Kernel audit playbook" /></a>
   <a href="https://github.com/zestoles/bounty-watcher"><img src="https://img.shields.io/badge/AUTOMATION-bounty--watcher-102947?style=for-the-badge&logo=githubactions&logoColor=5eead4" alt="Bounty watcher" /></a>
@@ -46,7 +46,7 @@ My approach is deliberately evidence-first: reproduce the failure, trace the dat
 
 ## Toolbox
 
-<p>
+<p style="pointer-events: none;">
   <img src="https://img.shields.io/badge/C%2B%2B-0b1220?style=for-the-badge&logo=cplusplus&logoColor=5eead4" alt="C++" />
   <img src="https://img.shields.io/badge/C-0b1220?style=for-the-badge&logo=c&logoColor=5eead4" alt="C" />
   <img src="https://img.shields.io/badge/Python-0b1220?style=for-the-badge&logo=python&logoColor=5eead4" alt="Python" />
@@ -62,6 +62,7 @@ My approach is deliberately evidence-first: reproduce the failure, trace the dat
 - Reproducible correctness tooling for numerical software
 
 <p align="center"><sub>Correctness is not negotiable — even at 2<sup>−149</sup>.</sub></p>
+
 
 
 
