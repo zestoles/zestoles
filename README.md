@@ -4,13 +4,15 @@
 >
 > `IEEE 754` · `edge cases` · `reproducible evidence`
 
-`GitHub: zestoles` · `Dev.to: @gundi61` · `Focus: numerical correctness`
+`GitHub: zestoles` · `Dev.to: @gundi61` · `Focus: numerical correctness + responsible disclosure`
 
 ## About
 
 I work on numerical correctness at the boundary between software and hardware: IEEE 754 behavior, low-level math kernels, and the awkward edge cases hidden in integer and floating-point datapaths.
 
 My approach is deliberately evidence-first: reproduce the failure, trace the data path, model the relevant execution semantics, and validate that a fix improves the affected cases without changing the rest.
+
+Alongside upstream work, I participate in responsible disclosure and public bug-bounty programs, including HackerOne and Bugcrowd. I report findings privately, keep scope and program rules first, and disclose technical detail only through the approved process.
 
 ## Evidence-first workflow
 
@@ -53,6 +55,7 @@ input + reference   bits + semantics   no collateral change  focused regression
 - Reproducible correctness tooling for numerical software
 
 <p align="center"><sub>Correctness is not negotiable — even at 2<sup>−149</sup>.</sub></p>
+
 
 
 
