@@ -22,22 +22,22 @@ My approach is deliberately evidence-first: reproduce the failure, trace the dat
 
 | Area | What I do |
 | --- | --- |
-| **Kernel correctness** | Bit-exact and cycle-faithful models of SFPU/SIMD-style datapaths, compared against reference implementations. |
-| **Low-level debugging** | Source-level root-cause analysis across compiler, register-pressure, scheduling, and numeric-conversion boundaries. |
+| **Kernel correctness** | Bit-exact reference models for SFPU/SIMD-style numerical behavior, compared against trusted implementations. |
+| **Low-level debugging** | Source-level root-cause analysis across architecture-specific kernel copies and numeric-conversion branches. |
 | **Regression design** | Small, adversarial tests for special values and boundary conditions that ordinary random testing misses. |
 
 ### Merged upstream contribution
 
 [`tenstorrent/tt-metal#54240`](https://github.com/tenstorrent/tt-metal/pull/54240) — fixed an IEEE 754 special case in `ttnn.atan2` where `atan2(±∞, ±0)` returned `0` or `π` instead of `±π/2`.
 
-- Accepted after three reviews and merged upstream.
+- Approved by three engineers and merged upstream.
 - Fix covers all affected architecture copies and adds a focused special-values regression test.
 - Read the technical write-up: [How I Found an IEEE 754 Violation in an AI Chip Company's Math Kernel](https://dev.to/gundi61/how-i-found-an-ieee-754-violation-in-an-ai-chip-companys-math-kernel-524o).
 
 ## Project shelf
 
 <p align="center">
-  <a href="https://github.com/zestoles/tt-metal"><img src="https://img.shields.io/badge/UPSTREAM%20WORK-tt--metal-102947?style=for-the-badge&logo=github&logoColor=5eead4" alt="tt-metal upstream work" /></a>
+  <a href="https://github.com/zestoles/tt-metal"><img src="https://img.shields.io/badge/CONTRIBUTIONS-tt--metal-102947?style=for-the-badge&logo=github&logoColor=5eead4" alt="tt-metal contributions" /></a>
   <a href="https://github.com/zestoles/kernel-audit-playbook"><img src="https://img.shields.io/badge/METHODOLOGY-kernel--audit--playbook-102947?style=for-the-badge&logo=bookstack&logoColor=5eead4" alt="Kernel audit playbook" /></a>
   <a href="https://github.com/zestoles/bounty-watcher"><img src="https://img.shields.io/badge/AUTOMATION-bounty--watcher-102947?style=for-the-badge&logo=githubactions&logoColor=5eead4" alt="Bounty watcher" /></a>
 </p>
@@ -62,5 +62,6 @@ My approach is deliberately evidence-first: reproduce the failure, trace the dat
 - Reproducible correctness tooling for numerical software
 
 <p align="center"><sub>Correctness is not negotiable — even at 2<sup>−149</sup>.</sub></p>
+
 
 
