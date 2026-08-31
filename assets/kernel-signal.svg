@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 300" role="img" aria-labelledby="title desc">
+  <title id="title">Numerical systems and kernel correctness</title>
+  <desc id="desc">An animated abstract signal travelling through a numerical kernel.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1"><stop offset="0" stop-color="#07111f"/><stop offset="1" stop-color="#102947"/></linearGradient>
+    <linearGradient id="signal" x1="0" x2="1"><stop offset="0" stop-color="#38bdf8"/><stop offset=".5" stop-color="#5eead4"/><stop offset="1" stop-color="#a78bfa"/></linearGradient>
+    <filter id="glow" x="-20%" y="-50%" width="140%" height="200%"><feGaussianBlur stdDeviation="5" result="blur"/><feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <style>.scan{stroke-dasharray:16 22;animation:dash 3.4s linear infinite}.pulse{animation:pulse 2.2s ease-in-out infinite;transform-origin:center}@keyframes dash{to{stroke-dashoffset:-228}}@keyframes pulse{50%{opacity:.38;transform:scale(1.18)}}@media (prefers-reduced-motion:reduce){.scan,.pulse{animation:none}}</style>
+  </defs>
+  <rect width="1200" height="300" rx="20" fill="url(#bg)"/>
+  <g opacity=".18" stroke="#94a3b8" stroke-width="1"><path d="M0 55H1200M0 115H1200M0 175H1200M0 235H1200"/><path d="M120 0V300M280 0V300M440 0V300M600 0V300M760 0V300M920 0V300M1080 0V300"/></g>
+  <path d="M40 210 C130 210 140 82 230 82 S330 220 420 220 S510 104 600 104 S680 184 760 184 S850 68 950 68 S1040 152 1160 152" fill="none" stroke="#0f263e" stroke-width="18" stroke-linecap="round"/>
+  <path class="scan" d="M40 210 C130 210 140 82 230 82 S330 220 420 220 S510 104 600 104 S680 184 760 184 S850 68 950 68 S1040 152 1160 152" fill="none" stroke="url(#signal)" stroke-width="4" stroke-linecap="round" filter="url(#glow)"/>
+  <g class="pulse" fill="#5eead4" filter="url(#glow)"><circle cx="230" cy="82" r="7"/><circle cx="600" cy="104" r="7"/><circle cx="950" cy="68" r="7"/></g>
+  <g fill="#e2e8f0" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace"><text x="68" y="64" font-size="16" letter-spacing="3" fill="#5eead4">NUMERICAL SYSTEMS</text><text x="68" y="125" font-size="38" font-weight="700">KERNEL CORRECTNESS</text><text x="70" y="162" font-size="16" fill="#94a3b8">IEEE 754 · edge cases · reproducible evidence</text></g>
+  <text x="70" y="254" fill="#5eead4" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="14">input → model → reproduce → fix → regress</text>
+</svg>
+
