@@ -8,14 +8,15 @@
     <style>.flow{stroke-dasharray:9 14;animation:flow 2.8s linear infinite}@keyframes flow{to{stroke-dashoffset:-184}}@media (prefers-reduced-motion:reduce){.flow{animation:none}}</style>
   </defs>
   <rect width="1200" height="330" rx="20" fill="url(#bg2)"/>
-  <text x="62" y="62" fill="#5eead4" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="15" letter-spacing="3">EVIDENCE-FIRST WORKFLOW</text>
-  <text x="62" y="99" fill="#e2e8f0" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="22">A numerical claim is only as good as its reproduction path.</text>
-  <g fill="none" stroke="url(#line)" stroke-width="3" filter="url(#soft)"><path class="flow" d="M242 213H344M532 213H634M822 213H924"/></g>
+  <text x="140" y="62" fill="#5eead4" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="14" letter-spacing="3">EVIDENCE-FIRST WORKFLOW</text>
+  <text x="140" y="99" fill="#e2e8f0" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="19">A numerical claim is only as good as its reproduction path.</text>
+  <g fill="none" stroke="url(#line)" stroke-width="3" filter="url(#soft)"><path class="flow" d="M300 213H393M553 213H647M807 213H900"/></g>
   <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">
-    <g transform="translate(62 154)"><rect width="180" height="118" rx="14" fill="#102947" stroke="#38bdf8"/><text x="22" y="37" fill="#38bdf8" font-size="13">01 / REPRODUCE</text><text x="22" y="69" fill="#e2e8f0" font-size="17">minimal failing</text><text x="22" y="93" fill="#94a3b8" font-size="13">input + reference</text></g>
-    <g transform="translate(352 154)"><rect width="180" height="118" rx="14" fill="#102947" stroke="#5eead4"/><text x="22" y="37" fill="#5eead4" font-size="13">02 / MODEL</text><text x="22" y="69" fill="#e2e8f0" font-size="17">trace the path</text><text x="22" y="93" fill="#94a3b8" font-size="13">bits + semantics</text></g>
-    <g transform="translate(642 154)"><rect width="180" height="118" rx="14" fill="#102947" stroke="#a78bfa"/><text x="22" y="37" fill="#a78bfa" font-size="13">03 / VALIDATE</text><text x="22" y="69" fill="#e2e8f0" font-size="17">strict improvement</text><text x="22" y="93" fill="#94a3b8" font-size="13">no collateral change</text></g>
-    <g transform="translate(932 154)"><rect width="180" height="118" rx="14" fill="#102947" stroke="#f0abfc"/><text x="22" y="37" fill="#f0abfc" font-size="13">04 / UPSTREAM</text><text x="22" y="69" fill="#e2e8f0" font-size="17">small, clear patch</text><text x="22" y="93" fill="#94a3b8" font-size="13">focused regression</text></g>
+    <g transform="translate(140 154)"><rect width="160" height="118" rx="14" fill="#102947" stroke="#38bdf8"/><text x="18" y="37" fill="#38bdf8" font-size="11">01 / REPRODUCE</text><text x="18" y="69" fill="#e2e8f0" font-size="15">minimal failing</text><text x="18" y="93" fill="#94a3b8" font-size="11">input + reference</text></g>
+    <g transform="translate(393 154)"><rect width="160" height="118" rx="14" fill="#102947" stroke="#5eead4"/><text x="18" y="37" fill="#5eead4" font-size="11">02 / MODEL</text><text x="18" y="69" fill="#e2e8f0" font-size="15">trace the path</text><text x="18" y="93" fill="#94a3b8" font-size="11">bits + semantics</text></g>
+    <g transform="translate(647 154)"><rect width="160" height="118" rx="14" fill="#102947" stroke="#a78bfa"/><text x="18" y="37" fill="#a78bfa" font-size="11">03 / VALIDATE</text><text x="18" y="69" fill="#e2e8f0" font-size="15">strict improvement</text><text x="18" y="93" fill="#94a3b8" font-size="11">no collateral change</text></g>
+    <g transform="translate(900 154)"><rect width="160" height="118" rx="14" fill="#102947" stroke="#f0abfc"/><text x="18" y="37" fill="#f0abfc" font-size="11">04 / UPSTREAM</text><text x="18" y="69" fill="#e2e8f0" font-size="15">small, clear patch</text><text x="18" y="93" fill="#94a3b8" font-size="11">focused regression</text></g>
   </g>
 </svg>
+
 
