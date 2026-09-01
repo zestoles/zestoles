@@ -1,10 +1,12 @@
-# Görkem TUNA
+<p align="center">
+  <a name="profile-banner"><img src="https://raw.githubusercontent.com/zestoles/zestoles/main/assets/kernel-signal.svg" alt="Numerical systems and kernel correctness" width="100%" /></a>
+</p>
 
-> **NUMERICAL SYSTEMS / KERNEL CORRECTNESS**
->
-> `IEEE 754` · `edge cases` · `reproducible evidence`
-
-`GitHub: zestoles` · `Dev.to: @gundi61` · `Focus: numerical correctness + responsible disclosure`
+<p align="center">
+  <a name="profile-github"><img src="https://img.shields.io/badge/GitHub-zestoles-0b1220?style=flat-square&logo=github&logoColor=ffffff" alt="GitHub" /></a>
+  <a name="profile-devto"><img src="https://img.shields.io/badge/Dev.to-@gundi61-0b1220?style=flat-square&logo=devdotto&logoColor=ffffff" alt="Dev.to" /></a>
+  <a name="profile-focus"><img src="https://img.shields.io/badge/Focus-numerical%20correctness%20%2B%20responsible%20disclosure-0b1220?style=flat-square&logo=target&logoColor=5eead4" alt="Focus: numerical correctness and responsible disclosure" /></a>
+</p>
 
 ## About
 
@@ -14,13 +16,9 @@ My approach is deliberately evidence-first: reproduce the failure, trace the dat
 
 Alongside upstream work, I participate in responsible disclosure and public bug-bounty programs, including HackerOne and Bugcrowd. I report findings privately, keep scope and program rules first, and disclose technical detail only through the approved process.
 
-## Evidence-first workflow
-
-```text
-01 / REPRODUCE  →  02 / MODEL  →  03 / VALIDATE  →  04 / UPSTREAM
-minimal failing     trace the path     strict improvement    small, clear patch
-input + reference   bits + semantics   no collateral change  focused regression
-```
+<p align="center">
+  <a name="profile-workflow"><img src="https://raw.githubusercontent.com/zestoles/zestoles/main/assets/evidence-loop.svg" alt="Evidence-first numerical debugging workflow" width="100%" /></a>
+</p>
 
 ## Selected work
 
@@ -40,13 +38,24 @@ input + reference   bits + semantics   no collateral change  focused regression
 
 ## Project shelf
 
-- [`tt-metal`](https://github.com/zestoles/tt-metal) — upstream contributions to numerical kernels
-- [`kernel-audit-playbook`](https://github.com/zestoles/kernel-audit-playbook) — repeatable numerical-audit methodology
-- [`bounty-watcher`](https://github.com/zestoles/bounty-watcher) — cautious public-opportunity triage automation
+<p align="center">
+  <a name="profile-tt-metal"><img src="https://img.shields.io/badge/CONTRIBUTIONS-tt--metal-102947?style=for-the-badge&logo=github&logoColor=5eead4" alt="tt-metal contributions" /></a>
+  <a name="profile-playbook"><img src="https://img.shields.io/badge/METHODOLOGY-kernel--audit--playbook-102947?style=for-the-badge&logo=bookstack&logoColor=5eead4" alt="Kernel audit playbook" /></a>
+  <a name="profile-watcher"><img src="https://img.shields.io/badge/AUTOMATION-bounty--watcher-102947?style=for-the-badge&logo=githubactions&logoColor=5eead4" alt="Bounty watcher" /></a>
+</p>
+
+<p align="center"><sub>Upstream contribution · repeatable methodology · practical automation</sub></p>
 
 ## Toolbox
 
-`C++` · `C` · `Python` · `Git` · `Linux` · `GitHub Actions`
+<p>
+  <a name="profile-cpp"><img src="https://img.shields.io/badge/C%2B%2B-0b1220?style=for-the-badge&logo=cplusplus&logoColor=5eead4" alt="C++" /></a>
+  <a name="profile-c"><img src="https://img.shields.io/badge/C-0b1220?style=for-the-badge&logo=c&logoColor=5eead4" alt="C" /></a>
+  <a name="profile-python"><img src="https://img.shields.io/badge/Python-0b1220?style=for-the-badge&logo=python&logoColor=5eead4" alt="Python" /></a>
+  <a name="profile-git"><img src="https://img.shields.io/badge/Git-0b1220?style=for-the-badge&logo=git&logoColor=5eead4" alt="Git" /></a>
+  <a name="profile-linux"><img src="https://img.shields.io/badge/Linux-0b1220?style=for-the-badge&logo=linux&logoColor=5eead4" alt="Linux" /></a>
+  <a name="profile-actions"><img src="https://img.shields.io/badge/GitHub_Actions-0b1220?style=for-the-badge&logo=githubactions&logoColor=5eead4" alt="GitHub Actions" /></a>
+</p>
 
 ## Currently exploring
 
@@ -55,6 +64,7 @@ input + reference   bits + semantics   no collateral change  focused regression
 - Reproducible correctness tooling for numerical software
 
 <p align="center"><sub>Correctness is not negotiable — even at 2<sup>−149</sup>.</sub></p>
+
 
 
 
