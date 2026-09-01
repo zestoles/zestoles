@@ -14,9 +14,10 @@
   <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">
     <g transform="translate(140 154)"><rect width="160" height="118" rx="14" fill="#102947" stroke="#38bdf8"/><text x="18" y="37" fill="#38bdf8" font-size="11">01 / REPRODUCE</text><text x="18" y="69" fill="#e2e8f0" font-size="15">minimal failing</text><text x="18" y="93" fill="#94a3b8" font-size="11">input + reference</text></g>
     <g transform="translate(393 154)"><rect width="160" height="118" rx="14" fill="#102947" stroke="#5eead4"/><text x="18" y="37" fill="#5eead4" font-size="11">02 / MODEL</text><text x="18" y="69" fill="#e2e8f0" font-size="15">trace the path</text><text x="18" y="93" fill="#94a3b8" font-size="11">bits + semantics</text></g>
-    <g transform="translate(647 154)"><rect width="160" height="118" rx="14" fill="#102947" stroke="#a78bfa"/><text x="18" y="37" fill="#a78bfa" font-size="11">03 / VALIDATE</text><text x="18" y="69" fill="#e2e8f0" font-size="15">strict improvement</text><text x="18" y="93" fill="#94a3b8" font-size="11">no collateral change</text></g>
-    <g transform="translate(900 154)"><rect width="160" height="118" rx="14" fill="#102947" stroke="#f0abfc"/><text x="18" y="37" fill="#f0abfc" font-size="11">04 / UPSTREAM</text><text x="18" y="69" fill="#e2e8f0" font-size="15">small, clear patch</text><text x="18" y="93" fill="#94a3b8" font-size="11">focused regression</text></g>
+    <g transform="translate(647 154)"><rect width="160" height="118" rx="14" fill="#102947" stroke="#a78bfa"/><text x="18" y="31" fill="#a78bfa" font-size="11">03 / VALIDATE</text><text x="18" y="61" fill="#e2e8f0" font-size="15">strict</text><text x="18" y="80" fill="#e2e8f0" font-size="15">improvement</text><text x="18" y="103" fill="#94a3b8" font-size="11">no collateral change</text></g>
+    <g transform="translate(900 154)"><rect width="160" height="118" rx="14" fill="#102947" stroke="#f0abfc"/><text x="18" y="31" fill="#f0abfc" font-size="11">04 / UPSTREAM</text><text x="18" y="61" fill="#e2e8f0" font-size="15">small, clear</text><text x="18" y="80" fill="#e2e8f0" font-size="15">patch</text><text x="18" y="103" fill="#94a3b8" font-size="11">focused regression</text></g>
   </g>
 </svg>
+
 
 
