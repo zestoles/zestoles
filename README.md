@@ -17,7 +17,7 @@ My approach is deliberately evidence-first: reproduce the failure, trace the dat
 Alongside upstream work, I participate in responsible disclosure and public bug-bounty programs, including HackerOne and Bugcrowd. I report findings privately, keep scope and program rules first, and disclose technical detail only through the approved process.
 
 <p align="center">
-  <a name="profile-workflow"><img src="https://raw.githubusercontent.com/zestoles/zestoles/main/assets/evidence-loop.svg" alt="Evidence-first numerical debugging workflow" width="100%" /></a>
+  <a name="profile-workflow"><img src="https://raw.githubusercontent.com/zestoles/zestoles/c1e9a9da954098efb4c11cfe0acb325f3c8d808a/assets/evidence-loop.svg" alt="Evidence-first numerical debugging workflow" width="100%" /></a>
 </p>
 
 ## Selected work
@@ -64,6 +64,7 @@ Alongside upstream work, I participate in responsible disclosure and public bug-
 - Reproducible correctness tooling for numerical software
 
 <p align="center"><sub>Correctness is not negotiable — even at 2<sup>−149</sup>.</sub></p>
+
 
 
 
